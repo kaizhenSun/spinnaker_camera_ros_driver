@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="rqt_gui" type="rqt_gui" name="gui"
+      args="--perspective-file $(find spinnaker_camera_driver)/launch/rqt/visualization1.perspective" />
+</launch>
